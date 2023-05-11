@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.skladiste.LoginController">
+   <children>
+      <Label layoutX="216.0" layoutY="67.0" text="Prijava u skladište" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="infoLabel" layoutX="204.0" layoutY="106.0" text="Unesite podatke za prijavu" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="158.0" text="Korisnicko ime:" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="159.0" layoutY="189.0" prefHeight="25.0" prefWidth="286.0" promptText="Unesite korisnicko ime...">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Label layoutX="159.0" layoutY="238.0" text="Lozinka:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="154.0" layoutY="265.0" prefHeight="26.0" prefWidth="286.0" promptText="Unesite lozinku..." />
+      <Button layoutX="256.0" layoutY="320.0" mnemonicParsing="false" onAction="#onLoginClicked" text="Prijavite se" />
+   </children>
+</AnchorPane>

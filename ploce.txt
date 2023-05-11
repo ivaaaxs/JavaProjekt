@@ -1,0 +1,15 @@
+Anet,17.97,236,19,Marbet,32
+Chicago,19.18,300,22,Marbet,32
+Grono,22.32,305,55,Marbet,32
+Grys,12.11,222,57,Marbet,50
+Jesien,15.11,42,51,Marbet,32
+Len,19.96,252,44,Marbet,32
+Manhattan,22.32,523,12,Marbet,50
+Norma,11.15,36,15,Marbet,32
+Paris,12.13,52,31,Marbet,50
+Pyrmont,12.2,65,32,Marbet,32
+Putz,18.9,11,36,Marbet,50
+Skora,35.65,0,44,Marbet,32
+Welle2,12.11,182,46,Marbet,32
+Zefir,16.32,72,122,Marbet,32
+Zima,18.11,42,131,Marbet,50
